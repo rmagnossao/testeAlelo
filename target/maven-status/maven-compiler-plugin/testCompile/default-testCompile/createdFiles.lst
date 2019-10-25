@@ -1,0 +1,4 @@
+com/alelo/api/main/service/impl/JPALocalDbConfig.class
+br/com/alelo/mocking/api/MockingApi.class
+com/alelo/api/main/service/impl/PersonServiceImplTest.class
+com/alelo/api/main/service/impl/JPALocalDbConfig$1.class

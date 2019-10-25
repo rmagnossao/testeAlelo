@@ -1,0 +1,9 @@
+/Users/rodrigomagnossao/Documents/Projetos/Alelo/src/main/java/br/com/alelo/api/main/entity/Person.java
+/Users/rodrigomagnossao/Documents/Projetos/Alelo/src/main/java/br/com/alelo/api/main/service/impl/PersonServiceImpl.java
+/Users/rodrigomagnossao/Documents/Projetos/Alelo/src/main/java/br/com/alelo/api/main/config/SwaggerConfig.java
+/Users/rodrigomagnossao/Documents/Projetos/Alelo/src/main/java/br/com/alelo/api/main/entity/PersonResponse.java
+/Users/rodrigomagnossao/Documents/Projetos/Alelo/src/main/java/br/com/alelo/api/main/MainApplication.java
+/Users/rodrigomagnossao/Documents/Projetos/Alelo/src/main/java/br/com/alelo/api/main/service/ApiService.java
+/Users/rodrigomagnossao/Documents/Projetos/Alelo/src/main/java/br/com/alelo/api/main/repository/PersonRepository.java
+/Users/rodrigomagnossao/Documents/Projetos/Alelo/src/main/java/br/com/alelo/api/main/controller/PersonController.java
+/Users/rodrigomagnossao/Documents/Projetos/Alelo/src/main/java/br/com/alelo/api/main/service/PersonService.java

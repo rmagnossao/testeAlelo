@@ -1,0 +1,9 @@
+br/com/alelo/api/main/MainApplication.class
+br/com/alelo/api/main/repository/PersonRepository.class
+br/com/alelo/api/main/controller/PersonController.class
+br/com/alelo/api/main/service/ApiService.class
+br/com/alelo/api/main/service/impl/PersonServiceImpl.class
+br/com/alelo/api/main/entity/PersonResponse.class
+br/com/alelo/api/main/service/PersonService.class
+br/com/alelo/api/main/config/SwaggerConfig.class
+br/com/alelo/api/main/entity/Person.class

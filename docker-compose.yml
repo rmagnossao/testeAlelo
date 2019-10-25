@@ -1,0 +1,29 @@
+version: '3.7'
+
+services:
+  alelo-db:
+    container_name: alelo-db
+    build:
+      context: .
+      dockerfile: Dockerfile_mysql
+    ports:
+      - "3306:3306"
+  alelo-api:
+    container_name: alelo-api
+    build:
+      context: .
+      dockerfile: Dockerfile_api
+    command:
+      - java
+      - "-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005"
+      - "-XX:ParallelGCThreads=8"
+      - "-jar"
+      - "apiAlelo-0.0.1-SNAPSHOT.jar"
+    links:
+      - alelo-db:database
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          memory: 1024M
